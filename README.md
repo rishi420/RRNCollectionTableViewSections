@@ -1,25 +1,21 @@
 ![](http://i.imgur.com/ZIjeYsF.gif)
 
-# Requirements
-
+## Requirements
 XCode 6.4+, iOS 8.1+
 
-# Installation
-
+## Installation
 In XCode, select 'Add Files To Project', and select the following
+* RRNCollectionTableViewSectionItemProtocol.h
+* RRNCollectionTableViewCellProtocol.h
+* RRNCollectionTableViewCellDatasourceProtocol.h
+* RRNCollectionViewController.h
+* RRNCollectionViewController.m
+* RRNCollectionTableViewCell.h
+* RRNCollectionTableViewCell.m
+* RRNTableCollectionViewController.h
+* RRNTableCollectionViewController.m
 
-RRNCollectionTableViewSectionItemProtocol.h
-RRNCollectionTableViewCellProtocol.h
-RRNCollectionTableViewCellDatasourceProtocol.h
-RRNCollectionViewController.h
-RRNCollectionViewController.m
-RRNCollectionTableViewCell.h
-RRNCollectionTableViewCell.m
-RRNTableCollectionViewController.h
-RRNTableCollectionViewController.m
-
-# Usage
-
+## Usage
 1. Build a UITableView, either in code or from interface builder.
 2. Build a cell for your tableView which is a subclass of RRNCollectionTableViewCell.
 3. Subclass RRNTableCollectionViewController.
@@ -27,6 +23,5 @@ RRNTableCollectionViewController.m
 
 See the 'Example' project for a demonstration.
 
-License
-
+## License
 RRNCollectionTableViewSections is released under the MIT license. See 'LICENCE' for details.

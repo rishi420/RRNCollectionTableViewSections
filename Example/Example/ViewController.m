@@ -87,7 +87,7 @@
 -(void)responseAtTableViewLevelWithModel:(id <RRNCollectionTableViewSectionItemProtocol>)item atTableViewIndexPath:(NSIndexPath *)indexPath {
 }
 
--(void)responseAtCollectionViewLevelWithModel:(id <RRNCollectionTableViewSectionItemProtocol>)item atCollectionViewIndexPath:(NSIndexPath *)indexPath {
+-(void)responseAtCollectionViewLevelWithModel:(id)item atCollectionViewIndexPath:(NSIndexPath *)indexPath {
 }
 
 @end

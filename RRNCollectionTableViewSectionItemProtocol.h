@@ -1,0 +1,14 @@
+//
+//  RRNCollectionTableViewSectionItemProtocol.h
+//  RRNCollectionViewMenu
+//
+//  Created by Robert Nash on 20/09/2015.
+//  Copyright © 2015 Robert Nash. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@protocol RRNCollectionTableViewSectionItemProtocol <NSObject>
+@property (nonatomic) CGPoint contentOffset;
+@property (nonatomic, strong) NSArray *collectionItems;
+@end

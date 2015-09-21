@@ -53,11 +53,11 @@
 
 #pragma mark - RRNCollectionTableViewCell Delegate
 
--(void)collectionTableViewCell:(UICollectionViewCell <RRNCollectionTableViewCellProtocol> *)cell didSelectItemAtCollectionViewIndexPath:(NSIndexPath *)indexPath {
+-(void)collectionTableViewCell:(UITableViewCell <RRNCollectionTableViewCellProtocol> *)cell didSelectItemAtCollectionViewIndexPath:(NSIndexPath *)indexPath {
 
 }
 
--(void)collectionTableViewCell:(UICollectionViewCell <RRNCollectionTableViewCellProtocol> *)cell didDeselectItemAtCollectionViewIndexPath:(NSIndexPath *)indexPath {
+-(void)collectionTableViewCell:(UITableViewCell <RRNCollectionTableViewCellProtocol> *)cell didDeselectItemAtCollectionViewIndexPath:(NSIndexPath *)indexPath {
     
 }
 

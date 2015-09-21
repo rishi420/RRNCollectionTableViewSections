@@ -56,7 +56,7 @@
 
 #pragma mark - RRNCollectionTableViewCell Delegate
 
--(void)collectionTableViewCell:(UICollectionViewCell <RRNCollectionTableViewCellProtocol> *)cell didSelectItemAtCollectionViewIndexPath:(NSIndexPath *)indexPath {
+-(void)collectionTableViewCell:(UITableViewCell <RRNCollectionTableViewCellProtocol> *)cell didSelectItemAtCollectionViewIndexPath:(NSIndexPath *)indexPath {
     
     NSUInteger section = cell.tag;
     
@@ -70,7 +70,7 @@
                           atTableViewIndexPath:[NSIndexPath indexPathForRow:0 inSection:section]];
 }
 
--(void)collectionTableViewCell:(UICollectionViewCell <RRNCollectionTableViewCellProtocol> *)cell didDeselectItemAtCollectionViewIndexPath:(NSIndexPath *)indexPath {
+-(void)collectionTableViewCell:(UITableViewCell <RRNCollectionTableViewCellProtocol> *)cell didDeselectItemAtCollectionViewIndexPath:(NSIndexPath *)indexPath {
     
     NSUInteger section = cell.tag;
     

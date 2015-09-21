@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rob-nash/RRNCollectionTableViewSections.svg)](https://travis-ci.org/rob-nash/RRNCollectionTableViewSections)
+
 ![](http://i.imgur.com/ZIjeYsF.gif)
 
 ## Requirements

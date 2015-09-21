@@ -13,13 +13,13 @@
 		50734FB21BAF5444007A6437 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50734FB11BAF5444007A6437 /* ViewController.m */; };
 		50734FB51BAF5444007A6437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50734FB31BAF5444007A6437 /* Main.storyboard */; };
 		50734FB71BAF5444007A6437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50734FB61BAF5444007A6437 /* Assets.xcassets */; };
-		50734FBA1BAF5444007A6437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50734FB81BAF5444007A6437 /* LaunchScreen.storyboard */; };
 		50734FC51BAF5444007A6437 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50734FC41BAF5444007A6437 /* ExampleTests.m */; };
 		50734FDC1BAF59E3007A6437 /* FakeModelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 50734FDB1BAF59E3007A6437 /* FakeModelBuilder.m */; settings = {ASSET_TAGS = (); }; };
 		50734FDF1BAF5A33007A6437 /* RRNSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 50734FDE1BAF5A33007A6437 /* RRNSectionItem.m */; settings = {ASSET_TAGS = (); }; };
 		50734FE51BAF5B8B007A6437 /* RRNCollectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50734FE41BAF5B8B007A6437 /* RRNCollectionTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		50734FE91BAF5D0A007A6437 /* RRNCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50734FE81BAF5D0A007A6437 /* RRNCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
 		50734FF31BAF662E007A6437 /* RRNTableCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50734FF21BAF662E007A6437 /* RRNTableCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		50CB081B1BB070E400E1E16A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50CB081A1BB070E400E1E16A /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		50734FB11BAF5444007A6437 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		50734FB41BAF5444007A6437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50734FB61BAF5444007A6437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		50734FB91BAF5444007A6437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50734FBB1BAF5444007A6437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50734FC01BAF5444007A6437 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50734FC41BAF5444007A6437 /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		50734FE81BAF5D0A007A6437 /* RRNCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRNCollectionViewController.m; path = ../../RRNCollectionViewController.m; sourceTree = "<group>"; };
 		50734FF11BAF662E007A6437 /* RRNTableCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRNTableCollectionViewController.h; path = ../../RRNTableCollectionViewController.h; sourceTree = "<group>"; };
 		50734FF21BAF662E007A6437 /* RRNTableCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRNTableCollectionViewController.m; path = ../../RRNTableCollectionViewController.m; sourceTree = "<group>"; };
+		50CB081A1BB070E400E1E16A /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,11 +134,11 @@
 		50734FAA1BAF5444007A6437 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				50CB081A1BB070E400E1E16A /* LaunchScreen.xib */,
 				503EBCA61BB06690008D2598 /* RRNCells */,
 				503EBCA11BB062FC008D2598 /* RRNControllers */,
 				50734FD51BAF566F007A6437 /* RRNProtocols */,
 				50734FB61BAF5444007A6437 /* Assets.xcassets */,
-				50734FB81BAF5444007A6437 /* LaunchScreen.storyboard */,
 				50734FBB1BAF5444007A6437 /* Info.plist */,
 				50734FAB1BAF5444007A6437 /* main.m */,
 			);
@@ -291,7 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50734FBA1BAF5444007A6437 /* LaunchScreen.storyboard in Resources */,
+				50CB081B1BB070E400E1E16A /* LaunchScreen.xib in Resources */,
 				50734FB71BAF5444007A6437 /* Assets.xcassets in Resources */,
 				50734FB51BAF5444007A6437 /* Main.storyboard in Resources */,
 			);
@@ -348,14 +348,6 @@
 				50734FB41BAF5444007A6437 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		50734FB81BAF5444007A6437 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50734FB91BAF5444007A6437 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

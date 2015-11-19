@@ -44,14 +44,16 @@
     
     //id <RRNCollectionTableViewSectionItemProtocol> item = [self model][section];
     
-    switch (section) {
-            
-        default:
-            return [[UICollectionViewFlowLayout alloc] init];
-            break;
-    }
+//    switch (section) {
+//            
+//        default:
+//            return [[UICollectionViewFlowLayout alloc] init];
+//            break;
+//    }
     
-    return nil;
+    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    return flowLayout;
 }
 
 #pragma mark - RRNCollectionTableViewCell Delegate
@@ -85,9 +87,13 @@
 }
 
 -(void)responseAtTableViewLevelWithModel:(id <RRNCollectionTableViewSectionItemProtocol>)item atTableViewIndexPath:(NSIndexPath *)indexPath {
+    
+    NSLog(@"responseAtTableViewLevelWithModel indexPathRow = %ld", (long)indexPath.row);
 }
 
 -(void)responseAtCollectionViewLevelWithModel:(id)item atCollectionViewIndexPath:(NSIndexPath *)indexPath {
+    
+    NSLog(@"responseAtCollectionViewLevelWithModel indexPathRow = %ld", (long)indexPath.row);
 }
 
 @end
